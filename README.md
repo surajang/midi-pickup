@@ -11,7 +11,7 @@ Roland GK-5, Fishman Triple play처럼 일렉트릭 기타의 신호를 MIDI sig
 - 음의 크기를 velocity로 변환
 - 6-Poly (한 번에 6개 넘는 노트가 들어올 리는 없으니..)
 
-## 기본 설계
+## 기본 설계 초안
 > 대충 이렇게 구성될 거 같음.
 
 ### 각 현 별로 분리된 transducer 6개
