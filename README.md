@@ -47,8 +47,10 @@ Roland GK-5, Fishman Triple play처럼 일렉트릭 기타의 신호를 MIDI sig
 - https://www.amazon.com/dp/B0CSD3R3YF?ref_=ppx_hzod_title_dt_b_fed_asin_title_0_0
 
 ### Preamp
-- Quad op-amp 2개 (LM248 구입)
-  - 2채널 남는 건 다른 용도로도 쓸 수 있을 듯
+- https://sound-au.com/project202.htm 의 Bootstrapped Piezo Preamp 사용
+  - 동작 테스트 완료. 1채널 분량 만들어서 C55P에 사용 중
+- 1채널당 dual op-amp 1개 사용
+- PCB layout 진행
 
 ### Controller
 - Teensy 4.0
@@ -58,3 +60,7 @@ Roland GK-5, Fishman Triple play처럼 일렉트릭 기타의 신호를 MIDI sig
   - USB bus power로 구동 가능
   - Arduino 개발 환경 사용 가능
   - 3만원 미만으로 살 수 있다!
+
+### 출력
+- MIDI
+- Piezo analog audio: Piezo로 잡은 소리 그대로 출력하기
